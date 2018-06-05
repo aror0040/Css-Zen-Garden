@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css?family=Acme|Libre+Franklin|Open+Sans');
+
+/* styles on body */
+body{
+	background-image: url("images/image1.jpg");
+	background-color: #CCF0F0;
+	position: relative;
+	background-size: 100%;
+    width: 100%;
+}
+
+/* header */
+
+header{
+	color: white;
+	background-color:black;
+	background-size: 100%;
+	padding-top: 35px;
+	padding-bottom: 25px;
+	text-align: center;
+
+}
+
+/* heading 1 */
+h1{
+	font-size: 75px;
+	font-family: 'Acme', sans-serif;
+	position:relative;
+	left: 5%;
+}
+
+/* heading 2 */
+h2{
+	position: relative;
+	left: 5%;
+	font-size: 30px;
+	font-family: 'Libre Franklin', sans-serif;
+	
+}
+
+/* heading 3 */
+h3{
+	font-size: 35px;
+	font-family: font-family: 'Open Sans', sans-serif;
+	position: relative;
+}
+
+/* paragraph below header */
+p{
+	font-size: 20px;
+	font-family: 'Libre Franklin', sans-serif;
+	text-align: center;
+
+}
+
+/* about section */
+.explanation{
+	text-align: center;
+	margin-top: 10px;
+	margin: 40px 40px;
+	width: 70%;
+	float: right;
+	border-radius: 25px;
+	border-style: outset;
+	border-color:linear-gradient(to bottom, #0033cc 0%, #ffffff 100%);
+}
+
+/* participation section */
+.participation{
+	text-align: center;
+	margin: 40px 40px;
+	width: 70%;
+	float: right;
+	border-radius: 25px;
+	border-style: outset;
+	border-color: linear-gradient(to bottom, #0033cc 0%, #ffffff 100%);
+}
+
+/* enlightenmnet section */
+.preamble{
+	text-align: center;
+	margin-left: 40px;
+	margin-right: 40px;
+	position: relative;
+	width: 70%;
+	float: right;
+	border-radius: 25px;
+	border-style: outset;
+	border-color: linear-gradient(to bottom, #0033cc 0%, #ffffff 100%);
+}
+
+/* benefits section */
+.benefits{
+	text-align: center;
+	font-size: 25px;
+	position: relative;
+	right: 40px;
+	width: 69%;
+	float: right;
+	border-radius: 25px;
+	border-style: outset;
+	border-color: linear-gradient(to bottom, #0033cc 0%, #ffffff 100%);
+
+}
+
+/* requiremnets section */
+.requirements{
+	margin: 40px 40px;
+	text-align: center;
+	border-width: 5px;
+	margin-bottom: 10px;
+	width: 70%;
+	float: right;
+	border-radius: 25px;
+	border-style: outset;
+	border-color: linear-gradient(to bottom, #0033cc 0%, #ffffff 100%);
+}
+
+/*  left-side bar */
+.sidebar{
+	float: right;
+}
+
+/* design section */
+.design-selection{
+	position: absolute;
+	top: 120%;
+	left:1%;
+	font-size: 15px;
+}
+
+/* archives section */
+.design-archives{
+	position: absolute;
+	top: 215%;
+	left:1%;
+}
+
+/* resoources section */
+.zen-resources{
+	position: absolute;
+	top: 275%;
+	left:1%;
+}
+
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+
+.clearfix { 
+	display: inline-table; 
+}
+
+/* footer */
+footer{
+	background-color:#327590;
+	font-size: 14px;
+	padding: 20px;
+	width: 100%;
+	position: absolute;
+	bottom: -540%;
+}
+
